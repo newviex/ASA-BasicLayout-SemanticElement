@@ -5,18 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Basic Semantic Layout Exercise</title>
+    <style>
+        .nav__link{
+        float: left;
+        margin-left: 2%;
+        
+        }
+    </style>
   </head>
-  <body>
+  <body style=" padding: 0; margin: 0; text-align: center;">
     <!--*************** HEADER SECTION ***************-->
-    <header>
+    <header style="background-color: blue;padding: 0; margin: 0;">
       <h1>HEADER</h1>
       <!--*************** NAVIGATION SECTION ***************-->
        
-      <nav>
-            <ul>
-                <li>Home</li>
-                <li>About</li>
-                <li>Contact</li>
+      <nav style="padding: 0; margin: 0; background-color: lightblue;">
+            <ul style="list-style-type: none; height: 25px;">
+                <li class="nav__link"><a href="#">Home</a> </li>
+                <li class="nav__link"><a href="#">About</a> </li>
+                <li class="nav__link"><a href="#">Contact</a> </li>
             </ul>
         </nav>
     
